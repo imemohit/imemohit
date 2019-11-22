@@ -363,35 +363,35 @@ client to sell digital subscription for thier online services.
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.13/featherlight.min.js" integrity="sha256-/SEQTcl9tvyYDA8SuhV/PMn92shN3kNn8C9vnbBcE9Y=" crossorigin="anonymous"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.13/featherlight.gallery.min.js" integrity="sha256-D08th8yiOzzG1PCb10sgBavAfRkhhaeNbbU0ZYpf5b4=" crossorigin="anonymous"></script>
 <script>
-		jQuery(function($){
-		
-			//load Complete:
-		setTimeout(function(){
-			$('body').css('overflow','auto');
-			
-			$('#loader').hide();
-			},200);
-			
-			$('#ContactForm .submit').click(function(e){
-					$('.ContactForm .submit').text('Sending...');
-					$('#ContactForm').submit();
-						/*var jqxhr = $.post( $('#ContactForm').attr('action'),$( "#ContactForm" ).serialize())
-						.done(function() {
-						$('.ContactForm .submit').text('Sent!');
+jQuery(function($){
 
-						$('#ContactForm').find("input[type=text],input[type=email], textarea").val("");
-						alert( "Thanks for sending a message, you will be contacted soon." );
-					
-						
-						})
-						.fail(function() {
-						alert( "Oops, there was a problem." );
-						})*/
-						
-			return false;
-			})
-		});
-		</script>
+	//load Complete:
+setTimeout(function(){
+	$('body').css('overflow','auto');
+	
+	$('#loader').hide();
+	},200);
+	
+	$('#ContactForm .submit').click(function(e){
+			$('.ContactForm .submit').text('Sending...');
+			$('#ContactForm').submit();
+				/*var jqxhr = $.post( $('#ContactForm').attr('action'),$( "#ContactForm" ).serialize())
+				.done(function() {
+				$('.ContactForm .submit').text('Sent!');
+
+				$('#ContactForm').find("input[type=text],input[type=email], textarea").val("");
+				alert( "Thanks for sending a message, you will be contacted soon." );
+			
+				
+				})
+				.fail(function() {
+				alert( "Oops, there was a problem." );
+				})*/
+				
+	return false;
+	})
+});
+</script>
 	
 
 <div id="headerToggle"><a href="#header" class="toggle"></a></div></body></html>
